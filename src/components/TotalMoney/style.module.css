@@ -1,0 +1,33 @@
+.totalMoney__container {
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+
+    height: 90px;
+
+    margin-top: 18px;
+    padding: 20px;
+}
+
+.totalMoney__infos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.totalMoney__infos > p {
+    font-size: var(--title-3);
+    font-weight: var(--title-weight);
+}
+
+.totalMoney__value {
+    color: var(--color-primary);
+}
+
+.totalMoney__container > span {
+    font-size: var(--text-2);
+    font-weight: var(--text-weight);
+
+    margin-top: 12px;
+}

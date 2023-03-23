@@ -1,0 +1,90 @@
+.form__container {
+    margin-top: 30px;
+
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 2px; 
+
+    padding: 20px;
+}
+
+.form__container > label {
+    margin-bottom: 12px;
+
+    font-size: var(--title-4);
+    font-weight: var(--title-4-weight);
+
+    color: var(--grey-4);
+}
+
+.form__container > input {
+    height: 53px;
+
+    border-radius: var(--radius-default);
+    border: none;
+
+    color: var(--grey-3);
+    background-color: var(--grey-1);
+
+    font-size: var(--text-1);
+    font-weight: var(--text-weight);
+
+    padding-left: 16px;
+
+    margin-bottom: 10px;
+}
+
+.form__container > span {
+    font-size: var(--text-2);
+    font-weight: var(--text-weight);
+
+    color: var(--grey-3);
+
+    margin: -5px 0 18px 0;
+}
+
+.form__container > select {
+    height: 48px;
+
+    border-radius: var(--radius-default);
+    border: none;
+
+    color: var(--grey-3);
+    background-color: var(--grey-1);
+
+    font-size: var(--text-1);
+    font-weight: var(--text-weight);
+
+    padding-left: 16px
+}
+
+.form__container > select > option {
+    color: var(--grey-3);
+    background-color: var(--grey-1)
+}
+
+.form__container > button {
+    height: 48px;
+
+    color: var(--grey-1);
+    background: var(--color-primary);
+
+    font-size: var(--title-3);
+    font-weight: 500;
+
+    border: 1px solid transparent;
+    border-radius: var(--radius-default);
+
+    margin: 26px 0 20px 0;
+
+    cursor: pointer;
+}
+
+
+@media (min-width: 1024px) {
+    .form__container {
+        margin-top: 0;
+    }
+}
